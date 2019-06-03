@@ -1,4 +1,4 @@
-instalar o python - pelo site
+instalar o python - pelo https://www.python.org/
 abra o projeto no IDE
 Foi criado um ambiente virtual para o projeto, logo após abrir o projeto,
 entre na pasta  MYPYTHON
