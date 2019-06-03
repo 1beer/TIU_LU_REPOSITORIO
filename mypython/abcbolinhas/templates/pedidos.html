@@ -87,7 +87,8 @@
         <th scope="col">TELEFONE</th>
         <th scope="col">EMAIL</th>
     </tr>
-    <tr> {%    for x in varpedidos %}</tr>
+
+    <tr> {%   for x in varpedidos %}</tr>
                 <td>{{ x.Cliente.nome_completo}}</td>
                 <td> {{ x.Cliente.endereco }}</td>
                 <td>{{  x.Cliente.numero }}</td>
@@ -97,7 +98,7 @@
                 <td>{{  x.Cliente.bairro}}</td>
                 <td>{{  x.Cliente.telefone}}</td>
                 <td>{{  x.Cliente.email}}</td>
-                  {% endfor %}
+          {% endfor %}
   </table>
 
 

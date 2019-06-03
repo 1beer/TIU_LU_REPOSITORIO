@@ -35,7 +35,6 @@ class Pedidos(models.Model):
    Cliente = models.ForeignKey(
    Cliente, on_delete=models.CASCADE, default=None)
    produto_pedido = models.CharField( max_length=30,blank = True)
-   produto_pedidoum = models.CharField( max_length=30,blank = True)
    descricao_pedido = models.CharField( max_length=30,default=None)
    quantidade_pedido = models.BigIntegerField(default=None)
    total_pedido = models.BigIntegerField(default=None)
